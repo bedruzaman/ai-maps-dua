@@ -6,7 +6,7 @@ nav_order: 3
 
 # IDEAtlas Infrastructure
 
-The IDEAtlas project is an open-source initiative focused on standardized, scalable urban deprivation mapping.
+The IDEAtlas is focused on creating standardized and scalable deprivation mapping.
 
 ## Resources
 * **[Project Website](https://ideatlas.eu):** Official project mission, publications, and research updates.
