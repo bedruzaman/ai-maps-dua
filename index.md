@@ -12,9 +12,8 @@ This workshop provides the technical foundation for mapping Deprived Urban Areas
 
 The objective of this training is to equip participants with the skills to implement an end-to-end mapping pipeline. By the end of this workshop, you will be able to:
 
-### 1. Data Creation & Labeling
-*   **IDEAtlas User Data Portal:** Learn to navigate [portal.ideatlas.eu](https://portal.ideatlas.eu) to identify urban regions.
-*   **Annotation Protocols:** Collect and create high-quality polygons to generate standardized labels, reference data, and masks required for robust model training.
+### 1. Data Creation & Annotation
+*   **IDEAtlas User Data Portal:** Utilize [portal.ideatlas.eu](https://portal.ideatlas.eu) to digitize polygons and generate the reference data required for training the AI model.
 
 ### 2. The Mapping Workflow
 You will master the full lifecycle of a DUA mapping project, including:
@@ -22,7 +21,7 @@ You will master the full lifecycle of a DUA mapping project, including:
 *   **Classification:** Execute inference using the IDEAtlas pre-trained models to map a city's DUA extent.
 *   **Fine-tuning:** Adapt existing pre-trained models to new geographic contexts when local reference data is limited.
 *   **Training:** Develop and train custom models from scratch for specific urban environments where high-density training data is available.
-*   **Indicator Derivation:** Process classified maps to generate summary statistics aligned with **SDG 11.1.1** (Proportion of population living in slums, informal settlements, or inadequate housing).
+*   **Indicator Derivation:** Process classified maps to generate summary statistics aligned with **SDG 11.1.1**.
 
 ---
 
