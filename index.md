@@ -6,7 +6,7 @@ nav_order: 1
 
 # Mapping Deprived Urban Areas using EO & AI
 
-This workshop provides the technical foundation for mapping Deprived Urban Areas (DUA) using open Earth Observation (EO) data and advanced geospatial AI. As urban populations expand, the ability to identify and characterize DUA at scale is essential for informed urban planning and sdg 11.1.1 monitoring.
+This workshop provides the technical foundation for mapping Deprived Urban Areas (DUA) using open Earth Observation (EO) data and advanced geospatial AI methods. As urban populations expand, the ability to identify and characterize DUA at scale is essential for informed urban planning and sdg 11.1.1 monitoring.
 
 ## Workshop Objectives
 
