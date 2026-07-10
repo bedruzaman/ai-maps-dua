@@ -1,3 +1,25 @@
 remote_theme: pmarsceill/just-the-docs
 
 title: "Mapping DUAs using EO & AI"
+description: "Technical workshop on mapping Deprived Urban Areas using Earth Observation and AI"
+
+# Exclude from search and build
+exclude:
+  - assets/tmp
+  - docs/tmp
+  - node_modules
+
+# Just-the-docs theme settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "IDEAtlas": "https://ideatlas.eu"
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: "docs"
+      type: "pages"
+    values:
+      layout: "default"
