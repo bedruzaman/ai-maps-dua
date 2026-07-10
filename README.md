@@ -1,35 +1,53 @@
-# AI-Maps: Geospatial Deep Learning for Urban Deprivation
+---
+layout: default
+title: Home
+nav_order: 1
+---
 
-Welcome to the training repository for **AI-Maps**, a framework for mapping informal settlements and urban deprivation using deep learning and Earth Observation data. This site accompanies our hands-on workshops and research documentation.
+# AI-Driven Mapping of Deprived Urban Areas (DUA)
 
-## 🎯 Objective
-This training aims to bridge the gap between satellite remote sensing and socio-economic analysis. By the end of this course, participants will be able to:
-- Preprocess multi-source satellite imagery using [PyTorch/GDAL/GeoPandas].
-- Implement building detection and super-resolution models.
-- Quantify uncertainty in urban morphology mapping.
-- Transition from local development to HPC-scale training.
+IDEAtlas is a research initiative focused on mapping the extent and spatial patterns of Deprived Urban Areas (DUA). This project leverages multi-branch deep learning and Earth Observation (EO) data to provide consistent, scalable spatial intelligence.
 
-## 📚 Curriculum
-The training is organized into modular labs:
-- **[Introduction & Setup](https://bedruzaman.github.io/ai-maps-dua/setup.html):** Preparing your environment and accessing datasets.
-- **[Lab I: Data Curation](https://bedruzaman.github.io/ai-maps-dua/lab1.html):** Handling 32-bit float tensors and patch extraction.
-- **[Lab II: Model Training](https://bedruzaman.github.io/ai-maps-dua/lab2.html):** PyTorch Lightning frameworks and model checkpoints.
-- **[Lab III: Inference & Scaling](https://bedruzaman.github.io/ai-maps-dua/lab3.html):** Deploying models on HPC infrastructure.
+This site contains the technical training materials required to implement the mapping pipeline, transition from raw sensor data to classified outputs, and generate indicators aligned with SDG 11.1.1.
 
-## 🛠 Prerequisites
-- Basic proficiency in Python and familiarity with the geospatial stack (`rasterio`, `GeoPandas`, `torchgeo`).
-- Access to the University of Twente HPC cluster for full-scale model training.
+## Training Objectives
 
-## 🤝 Contributing
-We welcome contributions to this training material! If you find a bug in the code or want to clarify a technical explanation:
-1. **Fork** the repository.
-2. **Create** a new branch.
-3. **Submit** a Pull Request using our [standard template](https://github.com/bedruzaman/ai-maps-dua/blob/main/.github/pull_request_template.md).
+This training module provides the operational knowledge needed to execute the IDEAtlas workflow. Participants will learn to:
+*   Configure the processing environment.
+*   Manage input datasets (Sentinel-2, building footprints, and reference data).
+*   Execute the multi-branch CNN (MB-CNN) pipeline for classification.
+*   Adapt the model for specific city contexts using local reference data.
+*   Compute SDG 11.1.1 statistics from classified DUA maps.
 
-## 🙋 License
-This project is dual-licensed:
-- **Code:** [MIT License](LICENSE)
-- **Content:** [Creative Commons Attribution 4.0 International](LICENSE-CC)
+## Requirements
+
+The mapping pipeline requires a computational environment capable of processing multi-modal EO data.
+
+### Hardware
+*   **GPU:** Recommended for efficient model training and fine-tuning.
+*   **Storage:** Sufficient capacity for Sentinel-2 imagery stacks and intermediate patch files.
+
+### Software
+*   **Docker:** Recommended for maintaining consistent dependencies.
+*   **Conda:** An alternative environment management system for managing Python packages.
+*   **Git:** Required to clone the repository and manage version control.
+
+## Workflow Overview
+
+The system is managed via a centralized `main.py` script. The workflow follows a standard operational path:
+
+1.  **Environment Setup:** Initialize the Docker or Conda environment as defined in the repository.
+2.  **Data Acquisition:** The pipeline automatically retrieves city boundaries and spectral data based on the provided parameters.
+3.  **Pipeline Execution:** Run the `main.py` script using the required arguments (`--task`, `--city`, `--country`, `--year`).
+4.  **Validation & Stats:** Generate DUA extent maps and compute SDG 11.1.1 summary indicators.
 
 ---
-*Developed by Bedru IDEAtlas at University of Twente.*
+
+## Contents
+
+1. [Project Introduction](intro.md)
+2. [Environment Setup](setup.md)
+3. [Running the Pipeline](pipeline.md)
+4. [Data Requirements](data.md)
+5. [Validation & Reporting](validation.md)
+```eof
