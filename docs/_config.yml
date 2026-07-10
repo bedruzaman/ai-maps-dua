@@ -13,7 +13,7 @@ exclude:
 
 # Just-the-docs theme settings
 color_scheme: light
-search_enabled: true
+search_enabled: false
 heading_anchors: true
 
 # Defaults for pages
