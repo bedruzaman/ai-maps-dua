@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: About this workshop
 nav_order: 1
 ---
 
