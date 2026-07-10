@@ -1,7 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 
 title: ""
-logo: "../assets/IDEAtlas_transp.png"
+logo: "assets/IDEAtlas_transp.png"
 description: "Technical workshop on mapping Deprived Urban Areas using Earth Observation and AI"
 
 # Exclude from search and build
