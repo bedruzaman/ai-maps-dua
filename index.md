@@ -4,7 +4,7 @@ title: About this workshop
 nav_order: 1
 ---
 
-# IDEAtlas: DUA Mapping Training
+# Mapping Deprived Urban Areas using EO & AI
 
 This workshop provides the technical foundation for mapping Deprived Urban Areas (DUA) using open Earth Observation (EO) data and advanced geospatial AI. As urban populations expand, the ability to identify and characterize DUA at scale is essential for informed urban planning and humanitarian action.
 
