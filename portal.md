@@ -9,6 +9,6 @@ nav_order: 1
 
 Access the annotation workflow to create reference data:
 
-[portal.ideatlas.eu](https://portal.ideatlas.eu){:target="_blank"}
+<a href="https://portal.ideatlas.eu" target="_blank" rel="noopener noreferrer">portal.ideatlas.eu</a>
 
 *Follow the provided workshop manual for digitization protocols and attribute formatting.*
