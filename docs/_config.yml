@@ -16,6 +16,15 @@ color_scheme: light
 search_enabled: false
 heading_anchors: true
 
+# Custom CSS for logo sizing
+custom_head: |
+  <style>
+    .site-logo img {
+      width: 300px !important;
+      height: auto !important;
+    }
+  </style>
+
 # Defaults for pages
 defaults:
   - scope:
