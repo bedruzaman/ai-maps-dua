@@ -65,7 +65,6 @@ python main.py --task <task_name> --city <city_name> --country <country_name> --
 ## 1. Training from Scratch
 
 <div class="workflow-card">
-  <div class="workflow-title">🛠️ Training from Scratch</div>
   <div class="workflow-description">
     Train a new model on your complete dataset. This is useful when you have sufficient labeled data for your specific city or region.
   </div>
@@ -78,7 +77,6 @@ python main.py --task <task_name> --city <city_name> --country <country_name> --
 ## 2. Fine-tuning with Pre-trained Weights
 
 <div class="workflow-card">
-  <div class="workflow-title">🎚️ Fine-tuning with Pre-trained Weights</div>
   <div class="workflow-description">
     Adapt the global IDEAtlas pre-trained model to your specific geographic context. Use this when you have limited local reference data.
   </div>
@@ -98,7 +96,6 @@ python main.py --task <task_name> --city <city_name> --country <country_name> --
 ## 3. Classification/Inference
 
 <div class="workflow-card">
-  <div class="workflow-title">🗺️ Classification/Inference</div>
   <div class="workflow-description">
     Generate segmentation maps from a trained or fine-tuned model. This creates the DUA classification output for your study area.
   </div>
@@ -118,7 +115,6 @@ python main.py --task <task_name> --city <city_name> --country <country_name> --
 ## 4. SDG Statistics
 
 <div class="workflow-card">
-  <div class="workflow-title">📊 SDG Statistics</div>
   <div class="workflow-description">
     Compute SDG 11.1.1 statistics from classified rasters. This calculates the percentage and extent of deprived urban areas in your study region.
   </div>
