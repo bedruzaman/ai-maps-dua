@@ -1,10 +1,10 @@
 ---
 layout: default
-title: IDEAtlas
+title: Get in touch
 nav_order: 4
 ---
 
-# IDEAtlas
+# Get in touch
 
 The IDEAtlas is focused on creating standardized, user-centered and scalable deprivation mapping globally.
 
