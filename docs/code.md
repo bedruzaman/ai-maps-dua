@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code
-parent: Lab
+parent: Hands On
 nav_order: 3
 ---
 

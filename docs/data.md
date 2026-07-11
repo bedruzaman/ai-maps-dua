@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data
-parent: Lab
+parent: Hands On
 nav_order: 2
 ---
 

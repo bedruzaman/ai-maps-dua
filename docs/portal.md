@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Portal
-parent: Lab
+parent: Hands On
 nav_order: 1
 ---
 
