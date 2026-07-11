@@ -65,7 +65,7 @@ python main.py --task <task_name> --city <city_name> --country <country_name> --
 ## 1. Training from Scratch
 
 <div class="workflow-card">
-  <div class="workflow-title">🎓 Training from Scratch</div>
+  <div class="workflow-title">🛠️ Training from Scratch</div>
   <div class="workflow-description">
     Train a new model on your complete dataset. This is useful when you have sufficient labeled data for your specific city or region.
   </div>
@@ -78,7 +78,7 @@ python main.py --task <task_name> --city <city_name> --country <country_name> --
 ## 2. Fine-tuning with Pre-trained Weights
 
 <div class="workflow-card">
-  <div class="workflow-title">🔧 Fine-tuning with Pre-trained Weights</div>
+  <div class="workflow-title">🎚️ Fine-tuning with Pre-trained Weights</div>
   <div class="workflow-description">
     Adapt the global IDEAtlas pre-trained model to your specific geographic context. Use this when you have limited local reference data.
   </div>
