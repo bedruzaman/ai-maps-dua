@@ -24,6 +24,11 @@ nav_order: 2
     overflow: hidden;
     border-radius: 6px;
     margin-bottom: 15px;
+    display: none;
+  }
+  
+  .presentation-frame.active {
+    display: block;
   }
   
   .presentation-frame iframe {
@@ -67,11 +72,20 @@ nav_order: 2
 <div class="presentation-container">
   <h2 style="margin-top: 0; color: #1f2937;">Setup and Introduction to the Workshop</h2>
   
-  <div class="presentation-frame">
-    <iframe src="https://docs.google.com/presentation/d/1TL0Kd_gScbQyAuGOr4_wC408Q15dwNOwVwVcxf4DbSM/embed?start=false&loop=false&delayms=3000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+  <div class="button-group">
+    <button onclick="toggleSlides()" class="btn btn-open">📊 View Slides</button>
   </div>
   
-  <div class="button-group">
-    <a href="https://docs.google.com/presentation/d/1TL0Kd_gScbQyAuGOr4_wC408Q15dwNOwVwVcxf4DbSM/edit" target="_blank" class="btn btn-open">📊 Slides</a>
+  <div class="presentation-frame" id="slideFrame">
+    <iframe src="https://docs.google.com/presentation/d/1TL0Kd_gScbQyAuGOr4_wC408Q15dwNOwVwVcxf4DbSM/embed?start=false&loop=false&delayms=3000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
   </div>
 </div>
+
+<script>
+function toggleSlides() {
+  const slideFrame = document.getElementById('slideFrame');
+  slideFrame.classList.toggle('active');
+  const button = event.target;
+  button.textContent = slideFrame.classList.contains('active') ? '📊 Hide Slides' : '📊 View Slides';
+}
+</script>
